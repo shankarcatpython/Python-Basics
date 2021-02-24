@@ -1,0 +1,135 @@
+#-------------------------Start of Array implementation----------------------   
+
+# implementation of CURD funtionality for an array 
+
+# import time funtion to log the time
+from datetime import datetime
+
+class Array:
+    
+# declaring an array 
+    def __init__(self):
+        self.array =[]
+      
+
+# creating an element in an array - First / Last and on n-th position 
+    def createelement(self,element,position=None):
+        if position == None:
+            self.array.append(element)
+        else:
+            self.array.insert(position,element)
+
+# updating an element in an array 
+    def updateelement(self,position,value):
+        Updatestatus = None
+        
+        if position > len(self.array):
+            Updatestatus = False
+            return(Updatestatus)    
+        else:
+            self.array[position] = value
+                 
+# Read / searching an element in the array
+    def searchelement(self,element):
+        Found = None
+        position = -1 
+        
+        for k in range(0,len(self.array)):
+            if self.array[k] == element:
+                position = k
+                Found = True
+                return(Found,position)
+        
+        return(Found,position)
+
+# Read / searching an element in the array with an index() function
+# returns the element in given position
+    def searchelementindex(self,element):
+        Found = None
+        position = None
+        
+        try:
+            position=self.array.index(element)
+            Found = True
+        except ValueError:
+            Found = False
+            
+        return(Found,position)    
+
+# remove an element form the array 
+    def removeelement(self,element):
+        removestatus = None
+        print(element)
+        if element in self.array:
+            self.array.remove(element)
+            removestatus = True
+        
+        return(removestatus)
+            
+# display array elements 
+    def displayelement(self):
+        return(self.array)
+
+# Other functions used in python:
+# count(), extend() , sort() , reverse() , copy() , clear()
+    def otherfunctions(self):
+        
+        print('Count()',self.array.count('3'))
+        
+        newarray = [20000101,20000102,20000103,20000104,20000105]
+        self.array.extend(newarray)
+        print('Extend()',self.array)
+        
+        self.array.sort()
+        print('sort()',self.array)
+        
+        self.array.reverse()
+        print('reverse()',self.array)
+        
+        otherarray = self.array.copy()
+        print('copy()',otherarray)
+        
+        self.array.clear()
+        newarray.clear()
+        otherarray.clear()
+
+# main function 
+# user gets in a portal and accessing the funtionalities in array
+
+if __name__ == '__main__':    
+# log the start time user action
+    starttime = datetime.now()
+    print(datetime.now())
+
+# create the user instance of an array     
+    user_1 = Array()
+    
+# user actions on adding the element 
+    for i in range(0,100000):
+        user_1.createelement(i)
+    for j in range(100000,200000):
+        user_1.createelement(j,0)
+
+# user action on updating an element in array 
+    user_1.updateelement(5,220)
+            
+# user action on searching an element in the array
+# searching the elemenet using index with an inbuilt function index()
+    temp = user_1.searchelement(100)
+    print(temp)
+    print(user_1.searchelementindex(0))
+    
+# user removes the element for the array 
+    print(user_1.removeelement(0))
+    
+# user action to display all elements array        
+    print(user_1.displayelement())
+    
+# Other functions array 
+    user_1.otherfunctions()
+    
+# log the start and end time user action
+    print(starttime)
+    print(datetime.now())
+    
+#-------------------------End of Array implementation----------------------    
