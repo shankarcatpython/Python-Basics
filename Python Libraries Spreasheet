@@ -1,0 +1,110 @@
+"""
+To import all the inbuild functions in to a spread sheet 
+"""
+
+# Import all python libraries 
+
+import string
+import time
+import sys
+import random
+import xlwt
+import xlrd
+import csv
+import array
+import pandas
+import numpy
+import math
+import itertools
+import collections
+import json
+import pprint
+import nltk.corpus
+import logging
+import tkinter
+import matplotlib
+import os
+import requests
+import scipy
+import nose.tools
+import ctypes
+import flask
+import glob
+import webbrowser
+import functools
+import sqlite3
+import pprint
+import heapq
+import re
+import threading
+import pickle
+import marshal
+import shelve
+import dbm
+
+# Open the csv file 
+# write all the inbuild function names
+# close the file 
+
+class inbuild_function:
+   
+    def __init__(self,location):
+        self.location = location
+        self.object   = open(location,'w')
+
+    def writing_functions(self,fun,fun_array):   
+        for j in fun_array:
+            value=fun + "," + str(j) +'\n'
+            self.object.write(value)
+
+    def closefile(self):
+        self.object.close()
+
+
+# Main function start here 
+
+if __name__ == '__main__':
+    
+    path = r'C:\Users\YourFolder\Desktop\inbuild.csv'
+    instance = inbuild_function(path)
+
+    instance.writing_functions('string',dir(string))
+    instance.writing_functions('time',dir(time))
+    instance.writing_functions('sys',dir(sys))
+    instance.writing_functions('random',dir(random))
+    instance.writing_functions('xlwt',dir(xlwt))
+    instance.writing_functions('xlrd',dir(xlrd))
+    instance.writing_functions('csv',dir(csv))
+    instance.writing_functions('array',dir(array))
+    instance.writing_functions('pandas',dir(pandas))
+    instance.writing_functions('numpy',dir(numpy))
+    instance.writing_functions('math',dir(math))
+    instance.writing_functions('itertools',dir(itertools))
+    instance.writing_functions('collections',dir(collections))
+    instance.writing_functions('json',dir(json))
+    instance.writing_functions('pprint',dir(pprint))
+    instance.writing_functions('nltk.corpus',dir(nltk.corpus))
+    instance.writing_functions('logging',dir(logging))
+    instance.writing_functions('tkinter',dir(tkinter))
+    instance.writing_functions('matplotlib',dir(matplotlib))
+    instance.writing_functions('os',dir(os))
+    instance.writing_functions('requests',dir(requests))
+    instance.writing_functions('scipy',dir(scipy))
+    instance.writing_functions('nose.tools',dir(nose.tools))
+    instance.writing_functions('ctypes',dir(ctypes))
+    instance.writing_functions('flask',dir(flask))
+    instance.writing_functions('pprint',dir(pprint))
+    instance.writing_functions('glob',dir(glob))
+    instance.writing_functions('webbrowser',dir(webbrowser))
+    instance.writing_functions('functools',dir(functools))
+    instance.writing_functions('sqlite3',dir(sqlite3))
+    instance.writing_functions('heapq',dir(heapq))
+    instance.writing_functions('re',dir(re))
+    instance.writing_functions('threading',dir(threading))
+    instance.writing_functions('pickle',dir(pickle))
+    instance.writing_functions('marshal',dir(marshal))
+    instance.writing_functions('shelve',dir(shelve))
+    instance.writing_functions('dbm',dir(dbm))
+    
+    instance.closefile() 
+    
