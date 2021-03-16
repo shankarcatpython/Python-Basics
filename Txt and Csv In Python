@@ -1,0 +1,48 @@
+# Working with txt and csv file - Write operations
+# Import time and random functions 
+
+import time 
+import random 
+
+# Create random numbers 
+
+initial_array = []
+for i in range(1,10000):
+    initial_array.append(i)    
+    
+# shuffle the array 
+random.shuffle(initial_array)
+
+# function for txt file
+# capture the start time 
+# open , write and close the file  
+
+def textfilecreation():
+    txtfile = open(r'C:\Users\Yourfolder\Desktop\Random.txt','w')
+
+    txtfile.writelines('Start Time :  ' + time.ctime() + '\n')
+
+    for j in initial_array:
+        txtfile.writelines('Current random Number is :  ' + str(j) + '\n')
+    txtfile.writelines('End Time :    ' + time.ctime() + '\n')
+
+    txtfile.close()
+  
+def csvfilecreation():
+    csvfile = open(r'C:\Users\Yourfolder\Desktop\Random.csv','w')
+
+    csvfile.writelines('Start Time :  ' + time.ctime() + '\n')
+
+    for k in initial_array:
+        csvfile.writelines('Current random Number is :  ,' + str(k) + '\n')
+    csvfile.writelines('End Time :    ' + time.ctime() + '\n')
+
+    csvfile.close()
+    
+
+# Main Logic - That calls the function for txt and csv
+    
+if __name__ == '__main__':
+    textfilecreation()
+    csvfilecreation()
+    
