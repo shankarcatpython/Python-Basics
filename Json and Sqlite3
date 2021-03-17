@@ -1,0 +1,50 @@
+# This program reads json dataset and inserts into the database 
+
+# Sample Json file given below 
+'''
+Map.json
+
+{"USA": ["North America"], 
+"China": ["Asia"],
+"UK": ["Europe"]}
+'''
+
+# Table should be available in database
+'''
+CREATE TABLE `WorldMap` (
+	`Country`	TEXT,
+	`Continent`	TEXT
+);
+'''
+
+# import Sqllite module 
+# import json module 
+
+import sqlite3
+import json
+
+
+# loading the content of json to a iterable 
+data = json.load(open(r"C:\Users\YourFolder\Desktop\Map.json"))
+
+# loding a dictionary in to sqlite database
+# Connect database connection 
+# load or insert in to database 
+# commit
+# close database connection 
+
+def inservalues():
+    conn = sqlite3.connect(r"C:\Users\YourFolder\Desktop\Python\Data Base\Python-Database.db")
+    cur = conn.cursor()
+    for i in data:
+        j=str(i)
+        k=str(data[i])
+        cur.execute("INSERT INTO WorldMap VALUES(?,?)",(j,k))
+    conn.commit()
+    conn.close()
+
+
+# Main function
+if __name__ == '__main__':
+    inservalues()
+    print('Insert success Good Work!!!')
