@@ -27,7 +27,7 @@ import json
 # loading the content of json to a iterable 
 data = json.load(open(r"C:\Users\YourFolder\Desktop\Map.json"))
 
-# loding a dictionary in to sqlite database
+# loading values into table ( sqlite database )
 # Connect database connection 
 # load or insert in to database 
 # commit
