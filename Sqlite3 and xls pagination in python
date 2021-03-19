@@ -1,0 +1,61 @@
+# import Sqllite module 
+# import xls writing module 
+
+import sqlite3
+from xlwt import Workbook
+
+'''
+
+Dictionary - it is table with in Sqlite (Python-Database.db) which has 2 columns 
+
+CREATE TABLE `Dictionary` (
+	`Word`	TEXT,
+	`Description`	TEXT
+);
+
+'''
+
+def databasetoxlspaging():
+    # Connect database connection 
+    # fetch all records from data base 
+    
+    conn = sqlite3.connect(r"C:\Users\YourFolder\Desktop\Python\Data Base\Python-Database.db")
+    cur = conn.cursor()
+    cur.execute('SELECT * FROM Dictionary')
+    data_dictionary = cur.fetchall()
+    
+    # create a work book 
+    wb = Workbook()
+    
+    sheet_no = 1
+    sno=0
+    pagecount = 0
+    
+    # add a sheet ( name the sheet as 1 )
+    ws = wb.add_sheet(str(sheet_no))
+    
+    for row in data_dictionary:
+        pagecount += 1
+        ws.write(sno,0, str(row[0]))
+        ws.write(sno,1, str(row[1]))
+        sno+=1
+        
+        # once the sheet reaches 1000 add a new sheet 
+        
+        if pagecount >= 1000:
+            pagecount = 0 
+            sheet_no +=1
+            sno=0
+            ws = wb.add_sheet(str(sheet_no))
+           
+    wb.save('final.xls')
+    
+    conn.commit()
+    conn.close()
+    
+# Main function
+
+if __name__ == '__main__':
+    databasetoxlspaging()
+    print('Select success - Good Work!!!')
+    
