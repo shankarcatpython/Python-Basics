@@ -14,3 +14,6 @@ print(a)
 
 a.remove(2)
 print(a)
+
+a.pop(2)
+print(a)
