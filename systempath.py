@@ -2,5 +2,8 @@
 
 import sys
 
+# print all the path
 for value in sys.path:
     print(value)
+
+# print(dir(sys))
