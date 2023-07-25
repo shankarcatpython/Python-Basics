@@ -28,6 +28,9 @@ for loc in temp_location:
             temp_title.append(news['title'])
             temp_link.append(news['link'])
             title_temp = str(news['title']).translate(str.maketrans('', '', string.punctuation))
+            
+            encoded_string = str(title_temp.encode('utf-8'))
+
             text_file.writelines('\n' + title_temp + '\n' + str(news['link']) + '\n' + '\n' )
 
 # write the results in to txt file    
