@@ -1,0 +1,149 @@
+[
+    {
+        "cust_id": "0790b263-0af9-41c7-8786-0cb772071f15",
+        "name": "Glenn Acevedo",
+        "address": "6463 White Courts Apt. 249\nFinleyside, CA 38900",
+        "street": "Williams Passage",
+        "zip_code": "75847",
+        "branches": []
+    },
+    {
+        "cust_id": "313b6cf1-f3ad-4daa-bd93-cf0db2bd9649",
+        "name": "Anna Perez",
+        "address": "886 Perez Forest\nPort Shirleyhaven, GU 94916",
+        "street": "Brown Corners",
+        "zip_code": "46364",
+        "branches": [
+            {
+                "branch_id": "b4a8875f-61c0-4a85-94c2-b787bebfda5e",
+                "location": "West Brian",
+                "zip_code": "87550",
+                "cust_id": "313b6cf1-f3ad-4daa-bd93-cf0db2bd9649"
+            }
+        ]
+    },
+    {
+        "cust_id": "4eb33e06-c202-467e-ab3f-30ad43fe942c",
+        "name": "Jill Ross",
+        "address": "288 Swanson Creek\nNew James, MH 41014",
+        "street": "Lawrence Union",
+        "zip_code": "26153",
+        "branches": [
+            {
+                "branch_id": "582853d5-3977-48a5-9528-c41cd80d6bdc",
+                "location": "Lake Jimmyfort",
+                "zip_code": "90763",
+                "cust_id": "4eb33e06-c202-467e-ab3f-30ad43fe942c"
+            }
+        ]
+    },
+    {
+        "cust_id": "53099233-832e-4e53-adb5-001aa9193229",
+        "name": "Nancy Hansen",
+        "address": "95878 Foster Pike Apt. 559\nMaryborough, WY 46346",
+        "street": "Jason River",
+        "zip_code": "88988",
+        "branches": [
+            {
+                "branch_id": "6d2e42cc-cab3-45cb-ac28-43450149fcd4",
+                "location": "South Donnaside",
+                "zip_code": "54541",
+                "cust_id": "53099233-832e-4e53-adb5-001aa9193229"
+            },
+            {
+                "branch_id": "96decd8e-6c4e-498b-93b3-79124f0533e6",
+                "location": "Smithmouth",
+                "zip_code": "07232",
+                "cust_id": "53099233-832e-4e53-adb5-001aa9193229"
+            },
+            {
+                "branch_id": "3b53f5c8-7cba-42a3-9c5d-3b4ac2cd6ffa",
+                "location": "Austinland",
+                "zip_code": "76961",
+                "cust_id": "53099233-832e-4e53-adb5-001aa9193229"
+            }
+        ]
+    },
+    {
+        "cust_id": "6aa4c8c5-ba50-4a72-a10a-634fe043465a",
+        "name": "Benjamin Garcia",
+        "address": "274 Mark Turnpike Apt. 945\nFryeborough, MS 37752",
+        "street": "Mercado Burg",
+        "zip_code": "16793",
+        "branches": [
+            {
+                "branch_id": "72bf1fbf-0826-4f0d-9bcf-996de0ae54c9",
+                "location": "South Teresa",
+                "zip_code": "51226",
+                "cust_id": "6aa4c8c5-ba50-4a72-a10a-634fe043465a"
+            }
+        ]
+    },
+    {
+        "cust_id": "80259b79-1a23-4553-a115-85bf55f77b55",
+        "name": "Gregory Guzman",
+        "address": "Unit 9432 Box 2288\nDPO AA 31777",
+        "street": "Kemp Cape",
+        "zip_code": "98416",
+        "branches": []
+    },
+    {
+        "cust_id": "a609a900-1c82-47dd-802c-6b7692b0ace0",
+        "name": "Danielle Donovan",
+        "address": "506 Tiffany Roads Suite 197\nAllenchester, MH 04505",
+        "street": "Samantha Springs",
+        "zip_code": "53463",
+        "branches": [
+            {
+                "branch_id": "5d8e885a-f95a-4245-b2fb-480c36de10f4",
+                "location": "Amymouth",
+                "zip_code": "79511",
+                "cust_id": "a609a900-1c82-47dd-802c-6b7692b0ace0"
+            },
+            {
+                "branch_id": "605a9beb-58cb-47b9-9a15-d6907a652617",
+                "location": "South Kennethmouth",
+                "zip_code": "75308",
+                "cust_id": "a609a900-1c82-47dd-802c-6b7692b0ace0"
+            }
+        ]
+    },
+    {
+        "cust_id": "b0cf6790-c23c-422a-99a6-aa29678d6f81",
+        "name": "Elizabeth Roberson",
+        "address": "048 Matthew Crossroad\nMorganmouth, IN 30981",
+        "street": "Katie Mountain",
+        "zip_code": "22986",
+        "branches": [
+            {
+                "branch_id": "b618020c-4624-483f-9061-7ffd6b5db9cc",
+                "location": "North Michael",
+                "zip_code": "71675",
+                "cust_id": "b0cf6790-c23c-422a-99a6-aa29678d6f81"
+            }
+        ]
+    },
+    {
+        "cust_id": "ec11741b-b54e-4d20-9d2e-8438094723da",
+        "name": "Dr. Jason Shelton",
+        "address": "855 Cody Crescent\nNorth Codymouth, VA 75496",
+        "street": "Newman Islands",
+        "zip_code": "95451",
+        "branches": [
+            {
+                "branch_id": "f35dcef5-9988-4599-86f7-18762425115a",
+                "location": "North Brenda",
+                "zip_code": "42454",
+                "cust_id": "ec11741b-b54e-4d20-9d2e-8438094723da"
+            }
+        ]
+    },
+    {
+        "cust_id": "f499753a-281a-40fb-b08d-733c67c45ba7",
+        "name": "Barbara Rush",
+        "address": "0775 Peterson Burgs Suite 955\nSouth Erika, TN 56019",
+        "street": "Moreno Meadows",
+        "zip_code": "11154",
+        "branches": []
+    }
+]

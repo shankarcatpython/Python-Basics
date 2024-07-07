@@ -1,0 +1,120 @@
+Customer ID: 0790b263-0af9-41c7-8786-0cb772071f15
+Name: Glenn Acevedo
+Address: 6463 White Courts Apt. 249
+Finleyside, CA 38900
+Street: Williams Passage
+Zip Code: 75847
+Branches:
+
+Customer ID: 313b6cf1-f3ad-4daa-bd93-cf0db2bd9649
+Name: Anna Perez
+Address: 886 Perez Forest
+Port Shirleyhaven, GU 94916
+Street: Brown Corners
+Zip Code: 46364
+Branches:
+  Branch ID: b4a8875f-61c0-4a85-94c2-b787bebfda5e
+  Location: West Brian
+  Zip Code: 87550
+  Customer ID: 313b6cf1-f3ad-4daa-bd93-cf0db2bd9649
+
+Customer ID: 4eb33e06-c202-467e-ab3f-30ad43fe942c
+Name: Jill Ross
+Address: 288 Swanson Creek
+New James, MH 41014
+Street: Lawrence Union
+Zip Code: 26153
+Branches:
+  Branch ID: 582853d5-3977-48a5-9528-c41cd80d6bdc
+  Location: Lake Jimmyfort
+  Zip Code: 90763
+  Customer ID: 4eb33e06-c202-467e-ab3f-30ad43fe942c
+
+Customer ID: 53099233-832e-4e53-adb5-001aa9193229
+Name: Nancy Hansen
+Address: 95878 Foster Pike Apt. 559
+Maryborough, WY 46346
+Street: Jason River
+Zip Code: 88988
+Branches:
+  Branch ID: 6d2e42cc-cab3-45cb-ac28-43450149fcd4
+  Location: South Donnaside
+  Zip Code: 54541
+  Customer ID: 53099233-832e-4e53-adb5-001aa9193229
+  Branch ID: 96decd8e-6c4e-498b-93b3-79124f0533e6
+  Location: Smithmouth
+  Zip Code: 07232
+  Customer ID: 53099233-832e-4e53-adb5-001aa9193229
+  Branch ID: 3b53f5c8-7cba-42a3-9c5d-3b4ac2cd6ffa
+  Location: Austinland
+  Zip Code: 76961
+  Customer ID: 53099233-832e-4e53-adb5-001aa9193229
+
+Customer ID: 6aa4c8c5-ba50-4a72-a10a-634fe043465a
+Name: Benjamin Garcia
+Address: 274 Mark Turnpike Apt. 945
+Fryeborough, MS 37752
+Street: Mercado Burg
+Zip Code: 16793
+Branches:
+  Branch ID: 72bf1fbf-0826-4f0d-9bcf-996de0ae54c9
+  Location: South Teresa
+  Zip Code: 51226
+  Customer ID: 6aa4c8c5-ba50-4a72-a10a-634fe043465a
+
+Customer ID: 80259b79-1a23-4553-a115-85bf55f77b55
+Name: Gregory Guzman
+Address: Unit 9432 Box 2288
+DPO AA 31777
+Street: Kemp Cape
+Zip Code: 98416
+Branches:
+
+Customer ID: a609a900-1c82-47dd-802c-6b7692b0ace0
+Name: Danielle Donovan
+Address: 506 Tiffany Roads Suite 197
+Allenchester, MH 04505
+Street: Samantha Springs
+Zip Code: 53463
+Branches:
+  Branch ID: 5d8e885a-f95a-4245-b2fb-480c36de10f4
+  Location: Amymouth
+  Zip Code: 79511
+  Customer ID: a609a900-1c82-47dd-802c-6b7692b0ace0
+  Branch ID: 605a9beb-58cb-47b9-9a15-d6907a652617
+  Location: South Kennethmouth
+  Zip Code: 75308
+  Customer ID: a609a900-1c82-47dd-802c-6b7692b0ace0
+
+Customer ID: b0cf6790-c23c-422a-99a6-aa29678d6f81
+Name: Elizabeth Roberson
+Address: 048 Matthew Crossroad
+Morganmouth, IN 30981
+Street: Katie Mountain
+Zip Code: 22986
+Branches:
+  Branch ID: b618020c-4624-483f-9061-7ffd6b5db9cc
+  Location: North Michael
+  Zip Code: 71675
+  Customer ID: b0cf6790-c23c-422a-99a6-aa29678d6f81
+
+Customer ID: ec11741b-b54e-4d20-9d2e-8438094723da
+Name: Dr. Jason Shelton
+Address: 855 Cody Crescent
+North Codymouth, VA 75496
+Street: Newman Islands
+Zip Code: 95451
+Branches:
+  Branch ID: f35dcef5-9988-4599-86f7-18762425115a
+  Location: North Brenda
+  Zip Code: 42454
+  Customer ID: ec11741b-b54e-4d20-9d2e-8438094723da
+
+Customer ID: f499753a-281a-40fb-b08d-733c67c45ba7
+Name: Barbara Rush
+Address: 0775 Peterson Burgs Suite 955
+South Erika, TN 56019
+Street: Moreno Meadows
+Zip Code: 11154
+Branches:
+
